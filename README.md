@@ -33,3 +33,17 @@ The iframe HTML element represents a nested browsing context, embedding another 
     src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
 </iframe>
 ```
+
+### 03 how to hightlight text
+
+```
+<mark>text<mark>
+```
+
+```
+<span style="background-color: yellow">text</span>
+```
+
+### 04 CSS sprite
+
+Image sprites are used in numerous web apps where multiple images are used. Rather than include each image as a separate image file, it is much more memory- and bandwidth-friendly to send them as a single image; using background position as a way to distinguish between individual images in the same image file, so the number of HTTP requests is reduced.
